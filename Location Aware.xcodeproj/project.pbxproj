@@ -12,6 +12,7 @@
 		B309D8BA1F08493A004D2389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B309D8B81F08493A004D2389 /* Main.storyboard */; };
 		B309D8BC1F08493A004D2389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309D8BB1F08493A004D2389 /* Assets.xcassets */; };
 		B309D8BF1F08493A004D2389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B309D8BD1F08493A004D2389 /* LaunchScreen.storyboard */; };
+		B309D8C81F084AA6004D2389 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B309D8C71F084AA6004D2389 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B309D8BB1F08493A004D2389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B309D8BE1F08493A004D2389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B309D8C01F08493A004D2389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B309D8C71F084AA6004D2389 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B309D8C81F084AA6004D2389 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				B309D8B31F08493A004D2389 /* Location Aware */,
 				B309D8B21F08493A004D2389 /* Products */,
+				B309D8C61F084AA6004D2389 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				B309D8C01F08493A004D2389 /* Info.plist */,
 			);
 			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		B309D8C61F084AA6004D2389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B309D8C71F084AA6004D2389 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					B309D8B01F08493A004D2389 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M32N7UJQSV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M32N7UJQSV;
 				INFOPLIST_FILE = "Location Aware/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vanessachu.Location-Aware";
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M32N7UJQSV;
 				INFOPLIST_FILE = "Location Aware/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vanessachu.Location-Aware";
